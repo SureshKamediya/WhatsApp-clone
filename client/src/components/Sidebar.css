@@ -1,0 +1,201 @@
+.sidebar,
+.roomSidebar,
+.createRoomSidebar,
+.profileSidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+}
+
+.sidebar_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px;
+  border-right: 1px solid lightgray;
+  max-height: fit-content;
+}
+
+.sidebar_headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sidebar_search {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: fit-content;
+}
+
+.sidebar_searchContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.sidebar_searchContainer > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.sidebar_searchContainer > input {
+  border: none;
+  outline-width: 0;
+  margin-left: 10px;
+}
+
+.sidebar_chat,
+.roomSidebar_users {
+  flex: 1;
+  background-color: white;
+  overflow: scroll;
+}
+
+.sidebar_chatButton {
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+
+.roomSidebar_header,
+.profileSidebar_header {
+  display: flex;
+  align-items: center;
+  background-color: lightgreen;
+  padding-top: 52px;
+  border-right: 1px solid lightgray;
+}
+
+.roomSidebar_header > h3,
+.profileSidebar_header > h3 {
+  font-size: 20px;
+  margin-left: 12px;
+}
+
+.roomSidebar_search {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  height: fit-content;
+  background-color: white;
+}
+
+.roomSidebar_searchSelected {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  overflow: scroll;
+}
+
+.roomSidebar_searchSelectedIcon {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  box-sizing: content-box;
+  border-radius: 20px;
+  margin-bottom: 2vh;
+}
+
+.roomSidebar_searchSelectedIcon > .MuiAvatar-root {
+  font-size: x-small;
+}
+
+.roomSidebar_searchSelectedIcon > p {
+  flex: 1;
+  margin-top: 4px;
+  font-weight: 500;
+  margin-left: 10px;
+  font-size: medium;
+}
+.roomSidebar_searchSelectedIcon > .MuiSvgIcon-root {
+  font-size: large;
+}
+
+.roomSidebar_searchContainer {
+  display: flex;
+  padding: 5px;
+}
+
+.roomSidebar_searchContainer > input {
+  flex: 1;
+  border: none;
+  outline-width: 0;
+  border-bottom: 1px solid gray;
+}
+
+.roomSidebar_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgreen;
+  padding: 5px;
+  border-top: 1px solid lightgray;
+}
+
+.createRoomSidebar,
+.profileSidebar {
+  background-color: white;
+}
+
+.createRoomSidebar_Name {
+  background-color: white;
+  display: flex;
+  padding: 20px;
+}
+
+.createRoomSidebar_imageUpload > .MuiAvatar-root {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+}
+
+.createRoomSidebar_Name > input {
+  flex: 1;
+  border: none;
+  outline-width: 0;
+  border-bottom: 1px solid gray;
+}
+
+.createRoomSidebar_Done {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgreen;
+  padding: 5px;
+  border-top: 1px solid lightgray;
+}
+
+.profileSidebar_avatar > .MuiAvatar-root {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+}
+.profileSidebar_info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.profileSidebar_info > input {
+  flex: 1;
+  border: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  outline-width: 0;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.profileSidebar_info > p {
+  margin-top: 30px;
+  font-size: medium;
+  font-weight: 500;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
